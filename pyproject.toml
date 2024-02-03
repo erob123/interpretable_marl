@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "interpretable-marl"
+version = "0.0.1"
+description = "Interpretable Multi-agent AI Systems"
+authors = ["erob123"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "interpretable_marl"}]
+
+[tool.poetry.dependencies]
+python = "~3.7"
+sacred = "0.8.2"
+ray = {version = "2.0.0", extras = ["rllib"]}
+dm-tree = "0.1.8"
+pyarrow = "12.0.1"
+protobuf = "3.19.6"
+wandb = "0.16.2"
+tensorflow = {version = "2.10.1", extras = ["and-gpu"]}
+tensorflow-io-gcs-filesystem = "0.34.0"
+requests = "2.31.0"
+transformers = "4.30.2"
+torch = "1.13.1+cpu"
+tensorflow-text = "2.10.0"
+sentence-transformers = "2.2.2"
+
+[[tool.poetry.source]]
+name = "torch-stable"
+url = "https://download.pytorch.org/whl/"
+priority = "supplemental"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
