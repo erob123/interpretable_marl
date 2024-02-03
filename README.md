@@ -19,7 +19,7 @@
 
 ## Running interpretable MARL
 1. Login to wandb: `wandb login`
-1. Run `interpretable_marl/run_single.py` to verify the interpretable_marl setup works
+1. Run `python interpretable_marl/run_single.py` to verify the interpretable_marl setup works
 1. Edit or run experiments as desired
 
 TODO: Add instructions for editing model, augmenting state in both training and evaluation, running experiments,

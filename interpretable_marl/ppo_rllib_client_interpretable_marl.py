@@ -6,7 +6,7 @@ import warnings
 
 import numpy as np
 
-from overcooked_ai_py.agents.benchmarking import AgentEvaluator
+from overcooked_ai.src.overcooked_ai_py.agents.benchmarking import AgentEvaluator
 
 warnings.simplefilter("ignore")
 
