@@ -11,7 +11,8 @@
     ```
 1. Close and reopen terminal or SSH and reactivate conda environment if needed
 1. Move into the root project directory: `cd interpretable_marl` (not `interpretable_marl/interpretable_marl`)
-1. Clone overcooked_ai: `git clone https://github.com/HumanCompatibleAI/overcooked_ai.git`
+1. Clone overcooked_ai: `git clone https://github.com/HumanCompatibleAI/overcooked_ai.git` (not using git submodules since only one repo,
+but if we add more, we should use submodules)
 1. Install overcooked : `pip install -e overcooked_ai/`
 1. Install poetry: `pip install poetry`
 1. Install the root project with poetry: `poetry install`
