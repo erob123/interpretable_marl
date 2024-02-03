@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "interpretable-marl"
+name = "interpretable_marl"
 version = "0.0.1"
 description = "Interpretable Multi-agent AI Systems"
 authors = ["erob123"]

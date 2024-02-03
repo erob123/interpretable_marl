@@ -8,7 +8,7 @@ mkdir -p $CONDA_PREFIX/etc/conda/activate.d
 echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/' > $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
 ```
 1. Close and reopen terminal or SSH and reactivate conda environment if needed
-1. Move into the root project directory: `cd interpretable-marl` (not `interpretable-marl/interpretable_marl`)
+1. Move into the root project directory: `cd interpretable_marl` (not `interpretable_marl/interpretable_marl`)
 1. Clone overcooked_ai: `git clone https://github.com/HumanCompatibleAI/overcooked_ai.git`
 1. Install overcooked : `pip install -e overcooked_ai/`
 1. Install poetry: `pip install poetry`
